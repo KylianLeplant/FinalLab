@@ -1,0 +1,9 @@
+1) Il y a des lignes sans target, il faut les gérer par exemple avec une interpolation 
+Les targets ont des valeurs variables (autours de 105 + ou - 10) => scaler les données entre 0 et 1
+On a des données pour chaque jour mais on veut des données mensuelles.
+Les dates sont au format AAAA-MM-JJ
+Les séparateurs sont des ;
+Les données semblent cyclique : à prendre en compte dans le modele
+
+3)f) malgré des résultats corrects sur la base de test il semble que le modele soit difficile à améliorer. Si on augmente sa taille (plus de LSTM ou dense), il risque le surraprentissage et la baisse d'efficacité
+Le manque de sonnées est un probleme 
